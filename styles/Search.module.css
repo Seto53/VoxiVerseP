@@ -1,0 +1,39 @@
+.search {
+    overflow: auto;
+    position: relative;
+    background-color: var(--noble-black-700);
+    box-sizing: border-box;
+    text-align: center;
+    font-size: var(--font-l);
+    color: var(--noble-black-0);
+    /*noinspection CssUnresolvedCustomProperty*/
+    font-family: var(--font-plus-jakarta-sans);
+    border-radius: 0;
+    height: calc(100vh - 64px);
+    padding: var(--padding-16);
+}
+
+.search,
+.content {
+    align-items: flex-start;
+    gap: var(--gap-12);
+}
+
+.content {
+    overflow: hidden;
+    align-self: stretch;
+    font-size: var(--font-xl);
+    width: 100%;
+}
+
+.characterCard {
+    border-radius: var(--br-16);
+    height: 250px;
+    width: 200px;
+}
+
+@media screen and (max-width: 768px) {
+    .content {
+        gap: 0;
+    }
+}

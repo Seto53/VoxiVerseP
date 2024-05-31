@@ -1,0 +1,12 @@
+.support {
+    position: relative;
+    background-color: var(--noble-black-700);
+    color: var(--noble-black-0);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    overflow: auto;
+    height: calc(100vh - 64px);
+    padding: var(--padding-20);
+    gap: var(--gap-12);
+}

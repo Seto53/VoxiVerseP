@@ -1,0 +1,150 @@
+.avatarIcon {
+    position: relative;
+    border-radius: var(--br-20);
+    min-width: 50px;
+}
+
+.intellisys {
+    position: relative;
+    letter-spacing: 0;
+    line-height: 24px;
+    font-weight: 600;
+}
+
+.user {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    gap: var(--gap-16);
+}
+
+.messageButton {
+    position: relative;
+    width: 16px;
+    height: 16px;
+}
+
+.messageButtonBox {
+    border-radius: var(--br-8);
+    padding: var(--padding-4);
+    cursor: pointer;
+}
+
+.messageButtonBox:hover {
+    background-color: var(--noble-black-600);
+}
+
+.messageButtonBox:hover .messageButton {
+    stroke: var(--noble-black-300);
+}
+
+.div {
+    position: absolute;
+    top: 6px;
+    left: 8px;
+    letter-spacing: 0;
+    line-height: 18px;
+    font-weight: 600;
+}
+
+.messageOptions {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-12);
+}
+
+
+.audioPlayer {
+    height: 30px;
+    width: 250px;
+}
+
+.name2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.buttonIcon3 {
+    gap: var(--gap-4);
+    display: flex;
+}
+
+.name2 {
+    align-self: stretch;
+    justify-content: space-between;
+}
+
+.messsage {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-12);
+}
+
+.content2,
+.message {
+    display: flex;
+    gap: var(--gap-24);
+}
+
+.content2 {
+    flex: 1;
+    flex-direction: column;
+    padding: var(--padding-8) 0;
+}
+
+.message {
+    align-self: stretch;
+    border-radius: var(--br-16);
+    border: 1px solid var(--noble-black-600);
+    flex-direction: row;
+    padding: var(--padding-16);
+    z-index: 0;
+    margin-bottom: 20px;
+}
+
+.minAgo {
+    font-weight: 500;
+    color: var(--noble-black-400);
+}
+
+.wellWeDefinitely {
+    font-weight: 500;
+}
+
+.wellWeDefinitelyContainer {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: 0;
+    line-height: 24px;
+    text-align: left;
+    color: var(--noble-black-300);
+}
+
+.gradientTop {
+    align-self: stretch;
+    position: absolute;
+    margin: 0 !important;
+    top: 112px;
+    left: 0;
+    background: linear-gradient(180deg, rgba(19, 22, 25, 0), #131619);
+    height: 112px;
+    z-index: 5;
+}
+
+@media screen and (max-width: 1250px) {
+}
+
+@media screen and (max-width: 960px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 420px) {
+}
+

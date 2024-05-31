@@ -1,0 +1,5 @@
+.chatHistory {
+    overflow: auto;
+    height: calc(100vh - 64px);
+    padding: var(--padding-20);
+}

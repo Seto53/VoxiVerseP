@@ -1,0 +1,61 @@
+.home,
+.content {
+    align-items: flex-start;
+    gap: var(--gap-12);
+}
+
+.contentLoading {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-self: stretch;
+    align-items: stretch;
+    flex: 1;
+    font-size: var(--font-xl);
+    overflow: auto; /* Make this element scrollable */
+    height: calc(100vh - 96px); /* Set a specific height */
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-self: stretch;
+    align-items: stretch;
+    flex: 1;
+    font-size: var(--font-xl);
+    overflow: auto; /* Make this element scrollable */
+    height: calc(100vh - 154px); /* Set a specific height */
+}
+
+.home {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    background-color: var(--noble-black-700);
+    flex-direction: row;
+    padding: var(--padding-16) var(--padding-4) var(--padding-16) var(--padding-16);
+    box-sizing: border-box;
+    text-align: center;
+    font-size: var(--font-l);
+    color: var(--noble-black-0);
+    /*noinspection CssUnresolvedCustomProperty*/
+    font-family: var(--font-plus-jakarta-sans);
+    border-radius: 0;
+    width: 100%;
+}
+
+.characterCard {
+    border-radius: var(--br-16);
+    height: 250px;
+    width: 200px;
+}
+
+@media screen and (max-width: 1200px) {
+    .home {
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        border-radius: 0;
+    }
+}

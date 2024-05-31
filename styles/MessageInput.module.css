@@ -1,0 +1,88 @@
+.s {
+    position: relative;
+    font-size: var(--font-s);
+    letter-spacing: 0;
+    line-height: 18px;
+    color: var(--noble-black-300);
+    text-align: center;
+}
+
+.div {
+    position: absolute;
+    top: 6px;
+    left: 8px;
+    letter-spacing: 0;
+    line-height: 18px;
+    font-weight: 600;
+}
+
+.messageInputContainer {
+    box-sizing: border-box;
+    border-radius: var(--br-20);
+    background-color: var(--noble-black-800);
+    overflow: hidden;
+    flex-direction: row;
+    padding: var(--padding-16);
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-24);
+    text-align: left;
+    align-self: stretch;
+    display: flex;
+    width: 100%;
+}
+
+.messageInputContainer:focus-within {
+    box-shadow: var(--shadow-extra-large-stem-green);
+    outline: 1px solid var(--stem-green-500);
+    transition: 0.25s;
+}
+
+.messageInputContainer:not(:focus-within) {
+    transition: 0.25s;
+}
+
+.messageInputContainer .iconButton {
+    border-radius: var(--br-12);
+    background-color: var(--noble-black-800);
+    padding: var(--padding-12);
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.messageInputContainer .iconButton:hover {
+    background-color: var(--noble-black-600);
+}
+
+.messageInputContainer .sendButton {
+    border-radius: var(--br-12);
+    background-color: var(--noble-black-800);
+    padding: var(--padding-12);
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+}
+
+.messageInput {
+    width: 100%;
+    background-color: var(--noble-black-800);
+    font-weight: 500;
+    color: var(--noble-black-100);
+    /*noinspection CssUnresolvedCustomProperty*/
+    font-family: var(--font-plus-jakarta-sans);
+    font-size: var(--font-l);
+    border: 0;
+}
+
+.messageInput:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.messageIcon {
+    position: relative;
+    width: 24px;
+    height: 24px;
+}

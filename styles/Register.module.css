@@ -1,0 +1,60 @@
+.value {
+    position: relative;
+    letter-spacing: 0;
+    line-height: 24px;
+    font-weight: 600;
+}
+
+.value1 {
+    position: relative;
+    letter-spacing: 0;
+    line-height: var(--font-xxl);
+    font-weight: 600;
+    background: var(--gradient-blue-green);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.signUp {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-8);
+    text-align: left;
+    font-size: var(--font-l);
+    color: #686b6e;
+}
+
+.socialText {
+    position: relative;
+    letter-spacing: 0;
+    line-height: 24px;
+    font-weight: 600;
+}
+
+.socialLoginButton {
+    border-radius: var(--br-16);
+    background-color: var(--noble-black-600);
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-8);
+}
+
+.socialButtons {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: var(--gap-12);
+    text-align: left;
+    font-size: var(--font-m);
+    color: var(--noble-black-400);
+}

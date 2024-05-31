@@ -1,0 +1,21 @@
+.content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-self: stretch;
+    align-items: stretch;
+    flex: 1;
+    overflow: auto;
+    height: calc(100vh - 64px);
+}
+
+.privacyTable {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.privacyTable th, .privacyTable td {
+    border: 1px solid white;
+    padding: 8px;
+    text-align: left;
+}

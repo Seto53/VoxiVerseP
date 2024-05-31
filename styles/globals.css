@@ -1,0 +1,168 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    margin: 0;
+    line-height: normal;
+    height: 100vh;
+}
+
+.rc-anchor-normal-footer {
+    display: none !important;
+}
+
+.grecaptcha-badge {
+    visibility: hidden;
+}
+
+:root {
+    /* font sizes */
+    --font-xxs: 8px;
+    --font-xs: 10px;
+    --font-s: 12px;
+    --font-m: 14px;
+    --font-l: 16px;
+    --font-xl: 18px;
+    --font-xxl: 24px;
+
+    /*Colors*/
+    --color-grey: rgba(255, 255, 255, 0.08);
+    --color-dark: rgba(26, 29, 33, 0.96);
+
+    --noble-black-0: #fff;
+    --noble-black-100: #e8e9e9;
+    --noble-black-200: #cdcecf;
+    --noble-black-300: #9b9c9e;
+    --noble-black-400: #686b6e;
+    --noble-black-500: #363a3d;
+    --noble-black-600: #1a1d21;
+    --noble-black-700: #131619;
+    --noble-black-800: #0d0f10;
+    --noble-black-900: #060708;
+
+    --day-blue-100: #ebedfc;
+    --day-blue-200: #d2d8f9;
+    --day-blue-300: #a6b0f2;
+    --day-blue-400: #7989ec;
+    --day-blue-500: #4d62e5;
+    --day-blue-600: #3045c9;
+    --day-blue-700: #243497;
+    --day-blue-800: #182364;
+    --day-blue-900: #0c1132;
+
+    --purple-blue-100: #f0e8fd;
+    --purple-blue-200: #deccfb;
+    --purple-blue-300: #bd9af8;
+    --purple-blue-400: #9c67f4;
+    --purple-blue-500: #7c35f1;
+    --purple-blue-600: #5f18d4;
+    --purple-blue-700: #47129f;
+    --purple-blue-800: #300c6a;
+    --purple-blue-900: #180635;
+
+    --sunglow-100: #fffaea;
+    --sunglow-200: #fff3d1;
+    --sunglow-300: #ffe8a3;
+    --sunglow-400: #ffdc75;
+    --sunglow-500: #ffd147;
+    --sunglow-600: #e2b42b;
+    --sunglow-700: #aa8720;
+    --sunglow-800: #715a15;
+    --sunglow-900: #392d0b;
+
+    --stem-green-100: #f7fdf4;
+    --stem-green-200: #edfbe6;
+    --stem-green-300: #dbf7cd;
+    --stem-green-400: #c8f4b4;
+    --stem-green-500: #b6f09c;
+    --stem-green-600: #9ad37f;
+    --stem-green-700: #739f5f;
+    --stem-green-800: #4d6a3f;
+    --stem-green-900: #263520;
+
+    --heisenberg-blue-100: #f1fbfe;
+    --heisenberg-blue-200: #e0f6fd;
+    --heisenberg-blue-300: #c0edfb;
+    --heisenberg-blue-400: #a1e4f9;
+    --heisenberg-blue-500: #82dbf7;
+    --heisenberg-blue-600: #65beda;
+    --heisenberg-blue-700: #4c8fa4;
+    --heisenberg-blue-800: #335f6d;
+    --heisenberg-blue-900: #193037;
+
+    --happy-orange-100: #fff2e9;
+    --happy-orange-600: #e26f20;
+    --happy-orange-900: #391c08;
+
+    --electric-green-100: #f3fbf7;
+    --electric-green-600: #4ac97e;
+    --electric-green-900: #122b1d;
+
+    --red-power-100: #fbecec;
+    --red-power-600: #d0302f;
+    --red-power-900: #2f0f0e;
+
+    --gradient-blue-green: linear-gradient(45deg, #82dbf7, #b6f09c);
+
+    /*Gaps */
+    --gap-2: 2px;
+    --gap-4: 4px;
+    --gap-6: 6px;
+    --gap-8: 8px;
+    --gap-12: 12px;
+    --gap-16: 16px;
+    --gap-20: 20px;
+    --gap-22: 22px;
+    --gap-24: 24px;
+
+    /* Paddings */
+    --padding-4: 4px;
+    --padding-8: 8px;
+    --padding-10: 10px;
+    --padding-12: 12px;
+    --padding-14: 14px;
+    --padding-16: 16px;
+    --padding-20: 20px;
+    --padding-22: 22px;
+    --padding-24: 24px;
+
+    /* Margins */
+    --margin-4: 4px;
+    --margin-8: 8px;
+    --margin-16: 16px;
+
+    /* border radiuses */
+    --br-4: 4px;
+    --br-8: 8px;
+    --br-10: 10px;
+    --br-12: 12px;
+    --br-16: 16px;
+    --br-20: 20px;
+    --br-24: 24px;
+
+    /* Effects */
+    --shadow-small: 0px 1px 2px -1px rgba(0, 0, 0, 0.05),
+    0px 1px 3px rgba(0, 0, 0, 0.05);
+    --shadow-extra-large: 0px 25px 50px -12px rgba(6, 7, 8, 0.16),
+    0px 8px 10px -6px rgba(6, 7, 8, 0.06);
+    --shadow-extra-large-stem-green: 0px 0px 0px 5px rgba(182, 240, 156, 0.12),
+    0px 0px 30px -12px rgba(182, 240, 156, 0.12),
+    0px 8px 10px -6px rgba(182, 240, 156, 0.04);
+    --outline-heisenberg-blue: 0px 0px 0px 4px rgba(132, 220, 245, 0.24);
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--noble-black-700);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #525557;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+}

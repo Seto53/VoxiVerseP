@@ -1,0 +1,17 @@
+{
+  "main": [
+    "Featured",
+    "Recommended",
+    "Anime",
+    "Anime Game Characters",
+    "Famous People",
+    "Game Characters",
+    "Movies & TV"
+  ],
+  "sub": [
+    "JoJo's Bizarre Adventure",
+    "Genshin Impact",
+    "Sonic the Hedgehog",
+    "Batman"
+  ]
+}
